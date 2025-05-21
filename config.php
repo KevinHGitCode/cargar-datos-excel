@@ -1,9 +1,9 @@
 <?php
 // Configuración de la base de datos
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'sistema_inventario');
+define('DB_HOST', 'bnkwss0po8jlfd4syucb-mysql.services.clever-cloud.com');
+define('DB_USER', 'uwdy3lrz2kiwf3n5');
+define('DB_PASS', 'B7NTX88ZifNvUSkBmWF0');
+define('DB_NAME', 'bnkwss0po8jlfd4syucb'); // sistema_inventario
 
 // Conexión a la base de datos
 function connectDB() {
