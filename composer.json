@@ -1,5 +1,15 @@
 {
+    "name": "cargar-datos-excel/sistema",
+    "description": "Sistema de carga de Excel a MySQL",
+    "type": "project",
     "require": {
+        "php": ">=7.4",
+        "ext-zip": "*",
+        "ext-mysqli": "*",
         "phpoffice/phpspreadsheet": "^1.28.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform-check": false
     }
 }
